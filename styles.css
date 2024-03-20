@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: #fbf1c7;
+  color: #282828;
+}
+
+/* .content {
+
+} */
+
+.nav-bg {
+  border-bottom: 1px solid #ebdbb2;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.typehere-logo {
+  width: 36px;
+}
+
+.btn-in > button {
+  width: 75px;
+  line-height: 30px;
+  border: 1px solid #282828;
+  border-radius: 20px;
+  font-family: "Roboto Mono", monospace;
+  background-color: #fbf1c7;
+  font-weight: 600;
+}
+
+.btn-in > button:hover {
+  cursor: pointer;
+  background-color: #282828;
+  color: #fbf1c7;
+}
+
+main {
+ margin-top: 4rem;
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn-github:hover {
+  opacity: 0.9;
+}
+
+.btn-github a >  button {
+  width: 75px;
+  border: none;
+  background-color: #282828;
+  border-radius: 20px;
+  padding: 3px;
+  cursor: pointer;
+}
+.main-text {
+  font-size: 7rem;
+  font-weight: 800;
+}
+
+.sub-text {
+  font-size: 1.3rem;
+}
+
+.btn-coba {
+  display: inline-flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  background-color: #282828;
+  border-radius: 20px;
+  gap: 9px;
+}
+
+.btn-coba:hover {
+  opacity: 0.9;
+}
+
+.btn-coba > a {
+  text-decoration: none;
+  align-self: center;
+}
+.btn-coba > a > span {
+  color: #f9f5d7;
+}
+
+.btn-coba > img {
+  color: #f9f5d7;
+  cursor: pointer;
+}
+
+.survey {
+  width: 770px;
+  height: 550px;
+  border: 5px solid #282828;
+  border-radius: 25px;
+  box-shadow: 20px 20px #ebdbb2;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+  margin-top: 3rem;
+  border-top: 1px solid #ebdbb2;
+}
+
+.copyright {
+  font-size: 14px;
+}
+
+.footer-logo {
+  display: inline-flex;
+  margin: 10px;
+  gap: 3px;
+}
+
+.footer-logo > a > button {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #282828;
+  border-radius: 50%;
+  background-color: #fbf1c7;
+}
+
+.footer-logo > a > button > img {
+  width: 20px;
+  height: 20px;
+}
+
+@media (min-width: 250px) and (max-width: 850px) {
+  .main-text {
+    font-size: 4rem;
+  }
+
+  .sub-text {
+    font-size: 16px;
+  }
+
+  .survey {
+    width: 90%;
+  }
+
+  .copyright {
+    font-size: 9px;
+  }
+
+  .footer-logo > a > button {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer-logo > a > button >img {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+/* @media (min-width: 551px) and (max-width: 750px) {
+  .survey {
+      width: 90%;
+    }
+} */
